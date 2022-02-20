@@ -19,4 +19,5 @@ from .import views
 
 urlpatterns = [
     path('', views.home),
+    path('usertext/',views.user, name='reverse'),
 ]
